@@ -10,6 +10,7 @@ This is a simple Ruby script demonstrating how to create an SSL server with a se
   - [Run SSL Server](#2-run-ssl-server)
   - [Test Connection](#3-test-connection)
   - [Clean Up](#4-clean-up)
+  - [Rake task](#5-rake-task)
 - [File Descriptions](#file-descriptions)
 - [Troubleshooting](#troubleshooting)
 
