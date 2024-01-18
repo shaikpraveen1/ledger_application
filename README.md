@@ -5,6 +5,7 @@ This is a simple Ruby script demonstrating how to create an SSL server with a se
 ## Contents
 
 - [Prerequisites](#prerequisites)
+- [Dependencies](#dependencies)
 - [Usage](#usage)
   - [Generate CA and Server Certificates](#1-generate-ca-and-server-certificates)
   - [Run SSL Server](#2-run-ssl-server)
@@ -18,6 +19,14 @@ This is a simple Ruby script demonstrating how to create an SSL server with a se
 
 - Ruby installed on your machine.
 
+## Dependencies
+
+Ensure you have the following gems installed:
+
+- `webrick`
+- `openssl`
+- `net-http`
+
 ## Usage
 
 1. **Generate CA and Server Certificates:**
@@ -26,7 +35,7 @@ This is a simple Ruby script demonstrating how to create an SSL server with a se
 
     ```bash
     bundle install # Install required gems
-    ruby self_signed_signal_generator.rb
+    ruby self_signed_certificate_generator.rb
     ```
 
     This will generate CA and server certificates (`ca_key.pem`, `ca_cert.pem`, `server_key.pem`, `server_cert.pem`).
